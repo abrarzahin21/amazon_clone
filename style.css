@@ -8,15 +8,27 @@
 .nav-bar{
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
     background-color: #0F1111;
     color: white;
     height: 60px;
+    gap: 2px;
 }
+
+/* Amazon main logo */
 
 .nav-bar-logo{
     width: 100px;    
     height: 50px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
 }
 
 .logo{
@@ -29,23 +41,17 @@
     align-items: center;
 }
 
-.border{
-    border: 1.5px solid transparent;
-}
-
-.border:hover{
-    border: 1.5px solid white;
-}
-
-.nav-address-box .border{   
-    height: 60px;
+/* nav address box edit */
+.nav-address-box{   
+    height: 50px;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .add-box-para{
     font-size: .8rem;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 12px;
+    margin-left: 13px;
+    margin-top: 9px;
 }
 
 .nav-address-logo {
@@ -58,6 +64,96 @@
 .add-logo-para{
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 2px;
+    margin-left: 3px;
+}
+
+/* nav search box edit */
+.nav-search-bar{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    /* border-radius: 4px; */
+}
+
+.cat-search-bar{
+    text-align: center;
+    height: 40px;
+    width: 50px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E6E6E6;
+    color: #0F1111;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #0F1111;
+    height: 40px;
+    width: 670px;
+    font-size: 1rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+.search-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #febd69;
+    color: #0F1111;
+    height: 40px;
+    width: 50px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* nav-len-bar */
+.nav-len-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 60px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lang-bar-para{
+    width: 50px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.len-opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F1111;
+    color: white;
+    border: none;
+}
+
+/* nav-sign-in */
+
+.nav-sign-in{
+    height: 50px;
+    width: 140px;
+    display: flex;
+    background-color: #0F1111;
 }
 
